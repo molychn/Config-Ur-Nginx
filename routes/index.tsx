@@ -1,11 +1,14 @@
 import { Head } from "$fresh/runtime.ts";
 // import Counter from "../islands/Counter.tsx";
+import Help from "../components/Help.tsx";
 
 export default function Home() {
   return (
     <>
       <Head>
         <link rel="stylesheet" href="/styles/twind.other.css" />
+        <script src="https://code.iconify.design/3/3.0.0/iconify.min.js">
+        </script>
       </Head>
       <div class="min-h-screen bg-gray-800">
         <header class="h-14 leading-14 px-10 border-b-1 bg-green-800 text-white shadow-md">
@@ -20,11 +23,12 @@ export default function Home() {
           </div>
           <div class="flex-auto pb-6">
             <div class="w-2/3 mx-auto mt-0 mb-6 bg-white rounded-md">
-              1
+              11
             </div>
           </div>
         </div>
       </div>
+      <Help />
     </>
     // <div class="p-4 mx-auto max-w-screen-md">
     //   <Head>

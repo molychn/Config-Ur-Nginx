@@ -9,3 +9,14 @@
   font-family: 'MapleMono-BoldItalic';
   src: url('../fonts/MapleMono-BoldItalic.ttf');
 }
+
+.nginx-help:hover .nginx-help-ctn{
+  display: block;
+}
+.nginx-help-ctn{
+  display: none;
+  width: 510px;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
